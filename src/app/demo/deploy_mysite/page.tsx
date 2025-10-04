@@ -1,7 +1,6 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "@/app/deploy_mysite.module.css";
 
-export default function Home() {
+export default function DeployMysite() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
